@@ -21,7 +21,6 @@ import com.example.twoforyou_note.R
 @Composable
 fun ViewScreen(navController: NavHostController) {
 
-
     Scaffold(topBar = { },
         floatingActionButton = {
             FloatingActionButton(
