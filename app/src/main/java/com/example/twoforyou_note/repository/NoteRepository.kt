@@ -10,8 +10,6 @@ class NoteRepository @Inject constructor(
 
     fun getNotes() = noteDao.getNotes()
 
-    suspend fun getNoteById(id : String) = noteDao.getNoteById(id)
-
     suspend fun insertNote(note : Note) = noteDao.insertNote(note)
 
     suspend fun updateNote(note : Note) = noteDao.updateNote(note)
